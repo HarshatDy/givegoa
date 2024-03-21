@@ -1,0 +1,392 @@
+WindowManager:
+    MainScrean:
+    RegistrationScreen:
+    ComplaintScreen:
+    ComplainData:
+<MainScrean>:
+    name: "Main"
+    
+    GridLayout:
+        cols: 2
+        BoxLayout:
+            orientation: 'vertical'
+            padding: 20
+            spacing: 10
+            canvas.before:
+                Color:
+                    rgba: 0.4, 0.06, 0.06, 1
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+            Image:
+                source: 'GIM_LOGO.png' 
+
+        Label:
+            text: 'Goa Institute of \n  Management'
+            font_size: '18sp'
+            canvas.before:
+                Color:
+                    rgba: 0.4, 0.06, 0.06, 1  # Maroon color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Label:
+            text: ''
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1  # White color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Label:
+            text: ''
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1  # White color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Label:
+            text: 'Email'
+        TextInput:
+            id: email_input
+            multiline: False
+        Label:
+            text: ''
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1  # White color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Label:
+            text: ''
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1  # White color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Label:
+            text: 'Password'
+        TextInput:
+            id: password_input
+            multiline: False
+            password: True
+        Label:
+            text: ''
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1  # White color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Label:
+            text: ''
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1  # White color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Button:
+            text: 'Log In'
+            background_color: 0.6, 0, 0, 1
+            on_press: 
+                root.login()
+                root.manager.transition.direction = "left"
+        Button:
+            text: 'Sign Up'
+            background_color: 0.6, 0, 0, 1
+            on_release: 
+                app.root.current = "Register"
+                root.manager.transition.direction = "left"
+<ComplainData>:
+    name: "ComplainData"
+    BoxLayout:
+        orientation: 'vertical'
+        BoxLayout:
+            id: head_layout
+            orientation: 'vertical'
+            size_hint_y: 0.5  # Set size_hint_y to 0.5 to make the height half of the screen
+            padding: 20
+            spacing: 10
+            canvas.before:
+                Color:
+                    rgba: 0.4, 0.06, 0.06, 1
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+            Image:
+                source: 'GIM_LOGO.png' 
+            Label:
+                text: 'Goa Institute of \n  Management'
+                font_size: '18sp'
+                canvas.before:
+                    Color:
+                        rgba: 0.4, 0.06, 0.06, 1  # Maroon color
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+        ScrollView:
+            do_scroll_x: True
+            do_scroll_y: True
+            BoxLayout:
+                id: data_layout
+                orientation: 'vertical'
+                size_hint_y: None
+                height: self.minimum_height
+             
+        Button:
+            size_hint_y: .4
+            text: 'Back'
+            background_color: 0.6, 0, 0, 1
+            on_press: 
+                app.root.current = 'Main'
+                root.manager.transition.direction = "right"
+
+
+
+<RegistrationScreen>:
+    name: "Register"
+    padding: 50
+    spacing: 10
+    GridLayout:
+        cols: 2
+        BoxLayout:
+            orientation: 'vertical'
+            padding: 10
+            
+            canvas.before:
+                Color:
+                    rgba: 0.4, 0.06, 0.06, 1
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+            Image:
+                source: 'GIM_LOGO.png' 
+        Label:
+            text: 'Goa Institute of\n  Management'
+            canvas.before:
+                Color:
+                    rgba: 0.4, 0.06, 0.06, 1  # Maroon color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        
+        Label:
+            text: 'Name'
+            font_size: '18sp'  # Set font size to 18 sp
+         #   color: 0.2, 0.6, 0.2, 1  # Set text color to a shade of green
+            background_color: 1, 1, 1, 1  # Set background color to white
+        TextInput:
+            id: name_input
+            multiline: False
+            font_size: '18sp'  # Set font size to 18 sp
+            background_color: 1, 1, 1, 1  # Set background color to white
+
+        Label:
+            text: 'Roll Number'
+        TextInput:
+            id: rollnumber_input
+            multiline: False
+
+        Label:
+            text: 'Hostel Number'
+        TextInput:
+            id: hostel_input
+            input_type: 'number'
+            multiline: False
+
+        Label:
+            text: 'Room Number'
+        TextInput:
+            id: room_input
+            input_type: 'number'
+            multiline: False
+
+        Label:
+            text: 'Phone'
+        TextInput:
+            id: phone_input
+            multiline: False
+
+        Label:
+            text: 'Branch'
+        TextInput:
+            id: branch_input
+            multiline: False
+
+        Label:
+            text: 'Email'
+        TextInput:
+            id: email_input
+            multiline: False
+
+        Label:
+            text: 'Password'
+        TextInput:
+            id: password_input
+            multiline: False
+            password: True
+
+        Button:
+            text: 'Register'
+            background_color: 0.6, 0, 0, 1
+            on_press: root.handle_registration()
+        Button:
+            text: 'Back'
+            background_color: 0.6, 0, 0, 1
+            on_release: 
+                app.root.current = "Main"
+                root.manager.transition.direction = "right"
+<ComplaintScreen>:
+    name: "Complaint"
+    GridLayout:
+        cols: 2  # Two columns for organizing the content
+
+
+        BoxLayout:  # First column (left)
+            orientation: 'vertical'
+
+
+            canvas.before:
+                Color:
+                    rgba: 0.4, 0.06, 0.06, 1
+                Rectangle:
+                    size: self.size
+                    pos: self.pos   
+            halign: 'right'  # Align text to right                             
+            
+        Label:
+            text: 'COMPLAINT TYPES'
+            canvas.before:
+                Color:
+                    rgba: 0.4, 0.06, 0.06, 1  # Maroon color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+
+
+        Spinner:
+            id: electrical_spinner
+            text: 'ELECTRICAL'
+            values: 'ELECTRICAL', 'FAN RUNNING SLOW', 'FAN REGULATOR', 'TUBE LIGHT', 'CEILING LED LIGHT', 'THREE PIN SOCKET'
+            size_hint: None, None
+            size: 200, 40
+            
+
+        Spinner:
+            id: plumbing_spinner
+            text: 'PLUMBING'
+            values: 'PLUMBING', 'HEALTH FAUCET', 'WC SEATER', 'FLUSH BUTTON', 'SHOWER', 'TAP', 'MIXTURE TAP', 'WASH BASIN', 'URINAL SENSOR', 'MIRROR', 'EXHAUST FAN', 'HOT WATER', 'NORMAL WATER'
+            size_hint: None, None
+            size: 200, 40
+
+        Spinner:
+            id: carpentry_spinner
+            text: 'CARPENTRY'
+            values: 'CARPENTRY', 'DOOR LOCK', 'DOOR HANDLE', 'DOOR HINGES', 'WINDOW HANDLE', 'WINDOW HINGES', 'WINDOW GLASS', 'ALMERAHA', 'COT', 'CLOTH HANGER', 'STUDY TABLE', 'CURTAINS', 'CURTAIN ROD'
+            size_hint: None, None
+            size: 200, 40
+
+        Spinner:
+            id: water_cooler_spinner
+            text: 'WATER COOLER'
+            values: 'PLUMBING', 'WATER LEAKAGE', 'TAP', 'COOLING ISSUE', 'NORMAL WATER ISSUE'
+            size_hint: None, None
+            size: 200, 40            
+
+        Spinner:
+            id: washing_machine_spinner
+            text: 'WASHING MACHINE'
+            values: 'FRONT DOOR LOCK', 'WATER LEAKAGE', 'DISPLAY', 'LIQUID DISPENSER', 'POWER ISSUE'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: dryer_spinner
+            text: 'DRYER'
+            values: 'FRONT DOOR LOCK', 'DISPLAY', 'POWER ISSUE', 'WATER LEAKAGE'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: furniture_spinner
+            text: 'FURNITURE'
+            values: 'REVOLVING CHAIR', 'HYDRAULIC HANDLE', 'WHEEL', 'PUSH BACK'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: air_conditioner_spinner
+            text: 'AIR CONDITIONER'
+            values: 'COOLING', 'THERMOSTAT', 'REMOTE', 'FILTER CLEAN'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: it_spinner
+            text: 'IT'
+            values: 'WIFI', 'ROUTER', 'LAN CARD'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: civil_spinner
+            text: 'CIVIL'
+            values: 'WALL CRACK', 'FLOOR TILE', 'WATER SEEPAGE'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: fire_safety_spinner
+            text: 'FIRE & SAFETY'
+            values: 'FIRE ESTINGUISHER', 'CLAMP', 'MCP', 'HOOTER', 'FIRE ALARM PANEL', 'HOOSE REEL', 'CANVAS HOSE', 'CANVAS HOSE CABINET', 'HYDRANT VALVE'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: telephone_spinner
+            text: 'TELEPHONE'
+            values: 'BUTTON', 'WIRE CARD', 'ROXET BOX'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: housekeeping_spinner
+            text: 'HOUSEKEEPING'
+            values: 'ROOM CLEANING', 'OTHER PROBLEMS'
+            size_hint: None, None
+            size: 200, 40  
+
+        Spinner:
+            id: other_spinner
+            text: 'OTHER'
+            values: 'OTHER', 'ANOTHER'
+            size_hint: None, None
+            size: 200, 40
+
+        TextInput:
+            id: complaint_input
+            hint_text: 'ENTER COMPLAINT DETAILS'
+            multiline: False
+            height: 40
+            width: 200
+        TextInput:
+            id: complaint_input
+            multiline: False
+            height: 40
+            width: 200
+
+        Button:
+            text: 'Submit'
+            on_press: root.handle_press()
+            background_color: 0.6, 0, 0, 1
+        Button:
+            text: 'Back'
+            background_color: 0.6, 0, 0, 1
+            on_release: 
+                app.root.current = "Main"
+                root.manager.transition.direction = "right"
+
