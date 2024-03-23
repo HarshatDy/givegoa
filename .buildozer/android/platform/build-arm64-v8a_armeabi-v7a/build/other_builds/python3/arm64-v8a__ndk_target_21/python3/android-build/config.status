@@ -423,18 +423,18 @@ $config_headers
 
 Report bugs to <https://github.com/python/cpython/issues/>."
 
-ac_cs_config="'--host=aarch64-linux-android' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-loadable-sqlite-extensions' '--with-build-python=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' '--with-openssl=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=aarch64-linux-android' 'PKG_CONFIG_PATH=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi' 'CC=/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/arm64-v8a -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 -L/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a/include/python3.1 -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'"
+ac_cs_config="'--host=aarch64-linux-android' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-loadable-sqlite-extensions' '--with-build-python=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' '--with-openssl=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=aarch64-linux-android' 'PKG_CONFIG_PATH=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi' 'CC=/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/arm64-v8a -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 -L/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a/include/python3.1 -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'"
 ac_cs_version="\
 python config.status 3.11
-configured by /workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/configure, generated by GNU Autoconf 2.69,
+configured by /workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/configure, generated by GNU Autoconf 2.69,
   with options \"$ac_cs_config\"
 
 Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/android-build'
-srcdir='/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3'
+ac_pwd='/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/android-build'
+srcdir='/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
 test -n "$AWK" || AWK=awk
@@ -514,7 +514,7 @@ if $ac_cs_silent; then
 fi
 
 if $ac_cs_recheck; then
-  set X /bin/bash '/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/configure'  '--host=aarch64-linux-android' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-loadable-sqlite-extensions' '--with-build-python=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' '--with-openssl=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=aarch64-linux-android' 'PKG_CONFIG_PATH=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi' 'CC=/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/arm64-v8a -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 -L/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a/include/python3.1 -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include' $ac_configure_extra_args --no-create --no-recursion
+  set X /bin/bash '/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/configure'  '--host=aarch64-linux-android' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-loadable-sqlite-extensions' '--with-build-python=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' '--with-openssl=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=aarch64-linux-android' 'PKG_CONFIG_PATH=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi' 'CC=/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/arm64-v8a -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 -L/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a/include/python3.1 -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include' $ac_configure_extra_args --no-create --no-recursion
   shift
   $as_echo "running CONFIG_SHELL=/bin/bash $*" >&6
   CONFIG_SHELL='/bin/bash'
@@ -702,15 +702,15 @@ S["MODULE_BLOCK"]="MODULE__IO_STATE=yes\n"\
 "MODULE__BZ2_STATE=missing\n"\
 "MODULE__LZMA_STATE=missing\n"\
 "MODULE__SSL_STATE=yes\n"\
-"MODULE__SSL_CFLAGS=-I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a"\
-"__ndk_target_21/openssl1.1/include\n"\
-"MODULE__SSL_LDFLAGS=-L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8"\
-"a__ndk_target_21/openssl1.1/lib  -lssl -lcrypto\n"\
+"MODULE__SSL_CFLAGS=-I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/a"\
+"rm64-v8a__ndk_target_21/openssl1.1/include\n"\
+"MODULE__SSL_LDFLAGS=-L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/"\
+"arm64-v8a__ndk_target_21/openssl1.1/lib  -lssl -lcrypto\n"\
 "MODULE__HASHLIB_STATE=yes\n"\
-"MODULE__HASHLIB_CFLAGS=-I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64"\
-"-v8a__ndk_target_21/openssl1.1/include\n"\
-"MODULE__HASHLIB_LDFLAGS=-L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm6"\
-"4-v8a__ndk_target_21/openssl1.1/lib   -lcrypto\n"\
+"MODULE__HASHLIB_CFLAGS=-I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/opens"\
+"sl/arm64-v8a__ndk_target_21/openssl1.1/include\n"\
+"MODULE__HASHLIB_LDFLAGS=-L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/open"\
+"ssl/arm64-v8a__ndk_target_21/openssl1.1/lib   -lcrypto\n"\
 "MODULE__TESTCAPI_STATE=yes\n"\
 "MODULE__TESTCLINIC_STATE=yes\n"\
 "MODULE__TESTINTERNALCAPI_STATE=yes\n"\
@@ -883,11 +883,11 @@ S["TEST_MODULES"]="yes"
 S["LIBB2_LIBS"]=""
 S["LIBB2_CFLAGS"]=""
 S["OPENSSL_RPATH"]=""
-S["OPENSSL_LDFLAGS"]="-L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/ope"\
-"nssl1.1/lib"
+S["OPENSSL_LDFLAGS"]="-L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_targe"\
+"t_21/openssl1.1/lib"
 S["OPENSSL_LIBS"]="-lssl -lcrypto"
-S["OPENSSL_INCLUDES"]="-I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/ope"\
-"nssl1.1/include"
+S["OPENSSL_INCLUDES"]="-I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_targe"\
+"t_21/openssl1.1/include"
 S["ENSUREPIP"]="no"
 S["SRCDIRS"]="  Modules   Modules/_blake2   Modules/_ctypes   Modules/_decimal   Modules/_decimal/libmpdec   Modules/_io   Modules/_multiprocessing   Modules/_sha"\
 "3   Modules/_sqlite   Modules/_sre   Modules/_xxtestfuzz   Modules/cjkcodecs   Modules/expat   Objects   Parser   Programs   Python   Python/frozen_"\
@@ -1029,21 +1029,21 @@ S["CPP"]="/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/pre
 S["OBJEXT"]="o"
 S["EXEEXT"]=""
 S["ac_ct_CC"]=""
-S["CPPFLAGS"]="-DANDROID -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspace/harshat/Goa_ap"\
-"k/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a/include/python3.1 -I/workspace/harshat/Goa_a"\
-"pk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 -I/workspace/harshat/"\
-"Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include -I/workspa"\
-"ce/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/in"\
-"clude -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_"\
-"21/openssl1.1/include/internal -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/opens"\
-"sl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sy"\
-"sroot/usr/include"
-S["LDFLAGS"]="  -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/arm64-v8a -L/workspace/h"\
-"arshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local"\
-"/arm64-v8a -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_tar"\
-"get_21/libffi/.libs -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8"\
-"a__ndk_target_21/openssl1.1 -L/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux"\
-"-android/21"
+S["CPPFLAGS"]="-DANDROID -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspace/harshat/git_go"\
+"a/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a/include/python3.1 -I/workspace/harsh"\
+"at/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 -I/wo"\
+"rkspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/l"\
+"ibffi/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-"\
+"v8a__ndk_target_21/openssl1.1/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/oth"\
+"er_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/buil"\
+"d-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl -I/root/.buildozer/android/platform/android-n"\
+"dk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include"
+S["LDFLAGS"]="  -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/arm64-v8a -L/wor"\
+"kspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/s"\
+"qlite3/obj/local/arm64-v8a -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/l"\
+"ibffi/arm64-v8a__ndk_target_21/libffi/.libs -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/bui"\
+"ld/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 -L/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_"\
+"64/sysroot/usr/lib/aarch64-linux-android/21"
 S["CFLAGS"]="-fPIC -DANDROID"
 S["CC"]="/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang"
 S["EXPORT_MACOSX_DEPLOYMENT_TARGET"]="#"
@@ -1067,45 +1067,46 @@ S["LIPO_32BIT_FLAGS"]=""
 S["ARCH_RUN_32BIT"]=""
 S["UNIVERSALSDK"]=""
 S["PKG_CONFIG_LIBDIR"]=""
-S["PKG_CONFIG_PATH"]="/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi"
+S["PKG_CONFIG_PATH"]="/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_2"\
+"1/libffi"
 S["PKG_CONFIG"]=""
 S["CONFIG_ARGS"]=" '--host=aarch64-linux-android' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' "\
 "'--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-lo"\
-"adable-sqlite-extensions' '--with-build-python=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/othe"\
-"r_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-"\
-"arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' '--with-openssl=/workspace/harshat/Goa_apk/givegoa/.buildoze"\
-"r/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'ho"\
-"st_alias=aarch64-linux-android' 'PKG_CONFIG_PATH=/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/ot"\
-"her_builds/libffi/arm64-v8a__ndk_target_21/libffi' 'CC=/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/"\
-"aarch64-linux-android21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_"\
-"armeabi-v7a/build/libs_collections/myapp/arm64-v8a -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/buil"\
-"d/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-a"\
-"rm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs -L/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platfor"\
-"m/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 -L/root/.buildozer/android/platform/android-ndk-r25b/to"\
-"olchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -"\
-"I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspace/harshat/Goa_apk/givegoa/."\
-"buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a/include/python3.1 -I/workspace/harshat/Goa_apk/givegoa/"\
-".buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 -I/workspace/harshat/Goa_apk/giv"\
-"egoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include -I/workspace/harshat/"\
-"Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include -I/wo"\
-"rkspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1"\
-".1/include/internal -I/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8"\
-"a__ndk_target_21/openssl1.1/include/openssl -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/i"\
-"nclude'"
+"adable-sqlite-extensions' '--with-build-python=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/bu"\
+"ild/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android"\
+"/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' '--with-openssl=/workspace/harshat/git_goa/g"\
+"ivegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' 'build_alias="\
+"x86_64-pc-linux-gnu' 'host_alias=aarch64-linux-android' 'PKG_CONFIG_PATH=/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/buil"\
+"d-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi' 'CC=/root/.buildozer/android/platform/android-ndk-r25b/toolchains"\
+"/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/workspace/harshat/git_goa/givegoa/givegoa/.bui"\
+"ldozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/arm64-v8a -L/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/a"\
+"ndroid/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a -L/workspace/harshat/git"\
+"_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs -L/work"\
+"space/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/op"\
+"enssl1.1 -L/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21' 'LIBS="\
+" -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x"\
+"86_64/sysroot/usr/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs"\
+"/myapp/arm64-v8a/include/python3.1 -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_"\
+"builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a"\
+"/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-ar"\
+"m64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include -I/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/a"\
+"ndroid/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal -I/workspace/harshat/git"\
+"_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/"\
+"openssl -I/root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'"
 S["SOVERSION"]="1.0"
 S["VERSION"]="3.11"
-S["PYTHON_FOR_REGEN"]="/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native"\
-"-build/python3"
+S["PYTHON_FOR_REGEN"]="/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython"\
+"3/native-build/python3"
 S["PYTHON_FOR_BUILD_DEPS"]=""
 S["FREEZE_MODULE_DEPS"]="$(FREEZE_MODULE_BOOTSTRAP_DEPS)"
 S["FREEZE_MODULE"]="$(FREEZE_MODULE_BOOTSTRAP)"
 S["FREEZE_MODULE_BOOTSTRAP_DEPS"]="$(srcdir)/Programs/_freeze_module.py"
 S["FREEZE_MODULE_BOOTSTRAP"]="$(PYTHON_FOR_FREEZE) $(srcdir)/Programs/_freeze_module.py"
-S["PYTHON_FOR_FREEZE"]="/workspace/harshat/Goa_apk/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native"\
-"-build/python3"
+S["PYTHON_FOR_FREEZE"]="/workspace/harshat/git_goa/givegoa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython"\
+"3/native-build/python3"
 S["PYTHON_FOR_BUILD"]="_PYTHON_PROJECT_BASE=$(abs_builddir) _PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) PYTHONPATH=$(shell test -f pybuilddir.txt && echo $(abs_builddir"\
-")/`cat pybuilddir.txt`:)$(srcdir)/Lib _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_$(ABIFLAGS)_$(MACHDEP)_$(MULTIARCH) /workspace/harshat/Goa_apk/giveg"\
-"oa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3"
+")/`cat pybuilddir.txt`:)$(srcdir)/Lib _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_$(ABIFLAGS)_$(MACHDEP)_$(MULTIARCH) /workspace/harshat/git_goa/giveg"\
+"oa/givegoa/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3"
 S["host_os"]="linux-android"
 S["host_vendor"]="unknown"
 S["host_cpu"]="aarch64"
